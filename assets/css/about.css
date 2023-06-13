@@ -1,0 +1,23 @@
+
+#about {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("about-bacgr.png");
+    background-repeat:none;
+    background-size:cover;
+    background-attachment: fixed;
+    color:white;
+    border-top: 6px solid var(--maincol);
+    border-bottom: 6px solid var(--maincol);
+    margin-top: 20px;
+}
+.about-flex {
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+.about-flex .second{
+    width: 450px;
+    border: 6px solid var(--maincol);
+    margin-right: 20px;
+}

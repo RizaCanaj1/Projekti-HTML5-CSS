@@ -1,0 +1,45 @@
+#contact {
+    background-color: var(--maincol-hover);
+}
+.flex-contact{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 100px;
+    border: 2px solid var(--maincol);
+    transition: all 0.4s;
+}
+.flex-1 h4{
+    display: none;
+}
+.flex-1:hover,.flex-1:hover h4 {
+    border: 0px;
+    display: block;
+    justify-content: space-around;
+}
+
+.flex-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 100px;
+    border: 2px solid var(--maincol);
+    transition: all 0.4s;
+}
+iframe {
+    display: none;
+}
+.flex-2:hover{
+    border:0px;
+}
+.flex-2:hover iframe{
+    display: block;
+}

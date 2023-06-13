@@ -1,0 +1,61 @@
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--maincol);
+    margin: 0px;
+}
+footer h2 {
+    color: white !important;
+}
+
+footer .line{
+    background-color: white;
+}
+.shortcuts{
+    display: flex;
+}
+.phones-computers{
+    display: flex;
+}
+.links{
+    width: 120px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 75px 75px;
+    gap: 8px;
+}
+.phones , .computers{
+    width: 180px;
+}
+.others {
+    margin-left: 50px;
+}
+.headphones , .tv-s , .consoles {
+    width: 150px;
+}
+.others {
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
+}
+.links a{
+    color:white;
+    display: none;
+}
+.links:hover a{
+    display: block;
+}
+.phones:hover a{
+    display: block;
+}
+.computers:hover a{
+    display: block;
+}
+.headphones:hover a {
+    display: block;
+}
+.tv-s:hover a {
+    display: block;
+}
+.consoles:hover a {
+    display: block;
+}

@@ -1,0 +1,54 @@
+@media screen and (max-width:1250px) {
+    .container{
+        width: 750px;
+    }
+    #about img{
+        width: 300px;
+    }
+    .box {
+        width: 300px;
+    }
+    .purchase{
+        width: 300px;
+    }
+    input:hover{
+        width: 225px;
+    }
+    .grid-boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px;
+    }
+    textarea {
+        width: 300px;
+        height: 200px;
+    }
+    iframe {
+        width: 400px;
+    }
+    .stairs {
+        width: 80px;
+        height: 125px;
+        background: var(--maincol);
+        box-shadow: 0px 0px;
+        margin-left: 345px;
+    }
+    .connect {
+        width: 77px;
+        height: 10px;
+        margin-left: 337px;
+        margin-top: 200px;
+        box-shadow: 0px 400px var(--maincol); 
+    }
+    footer {
+        height: 400px;
+    }
+    footer .others {
+        grid-template-columns: 0;
+        grid-template-rows: 100px 100px 100px;
+    }
+    footer .others .links {
+        margin-top: -20px;
+        margin-left: 120px;
+    }
+}

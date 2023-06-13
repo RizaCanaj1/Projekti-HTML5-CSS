@@ -1,0 +1,51 @@
+.issues-grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.issues-grid .email{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+}
+.issues-grid .product {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.issues-grid .date {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.issues-grid .description {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+#issues h3 {
+    margin-top:20px;
+}
+#issues input {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+#issues .date input {
+    width: 150px;
+}
+textarea{
+    font-size: 18px;
+}
+#issues .btn{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: var(--maincol-hover);
+    border: 3px solid var(--selected);
+    margin-top: 10px;
+}
+.btn button:hover { 
+    width: 150px;
+    border-color: var(--maincol);
+}

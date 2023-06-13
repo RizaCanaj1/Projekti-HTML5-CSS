@@ -1,0 +1,41 @@
+@media screen and (max-width:1500px) {
+    .container{
+        width: 1000px;
+    }
+    #about img{
+        width: 400px;
+    }
+
+    input:hover{
+        width: 225px;
+    }
+    .box {
+        height: 375px;
+        width: 200px;
+    }
+    .box img{
+        width: 80px;
+    }
+    .purchase{
+        width: 200px;
+    }
+    .stairs {
+        width: 70px;
+        height: 125px;
+        box-shadow: 252px 0px var(--maincol) ,504px 0px var(--maincol);
+        margin-left: 240px;
+    }
+    .connect {
+        width: 50px;
+        height: 10px;
+        margin-left: 223px;
+        margin-top: 180px;
+        box-shadow: 253px 0px var(--maincol), 505px 0px var(--maincol); 
+    }
+    footer .links a{
+        grid-template-rows: 60px 60px;
+    }
+    .headphones , .tv-s , .consoles {
+        width: 150px;
+    }
+}

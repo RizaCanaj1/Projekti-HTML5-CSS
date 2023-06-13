@@ -1,0 +1,63 @@
+.grid-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.box{
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 450px;
+    border: 2px solid var(--maincol); 
+    border-radius: 5px;
+    transition: all .4s;
+}
+.box:hover{
+    background: linear-gradient(rgba(2,0,36,0.006039915966386533) 25%, rgba(255,161,208,0.40379901960784315) 100%);
+}
+.box img{
+    margin-top: 50px;
+    width:100px;
+}
+.offers img{
+    text-align: center;
+    width: 150px;
+}
+.box:hover .purchase{
+    display: block;
+}
+.purchase {
+    display: none;
+    width: 300px;
+    height: 20px;
+    background-color: var(--maincol);
+    border-radius: 20px;
+}
+.purchase a{
+    color: white;
+}
+.stairs {
+    width: 100px;
+    height: 125px;
+    background: var(--maincol);
+    box-shadow: 315px 0px var(--maincol) ,630px 0px var(--maincol);
+    transform: skew(55deg);
+    position: absolute;
+    margin-left: 240px;
+    transition: ease-in .2s;
+}
+.connect{
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    background-color: var(--maincol);
+    margin-left: 304px;
+    margin-top: 220px;
+    box-shadow: 314px 0px var(--maincol), 628px 0px var(--maincol);
+    transition: ease-in 0.3s;
+}
